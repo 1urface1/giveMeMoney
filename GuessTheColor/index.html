@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUESS THE COLOR</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="logic.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="title">
+            <h1>THE GREAT <div class="RGB">RGB</div>GUESSING GAME</h1>
+        </div>
+        <div class="event">
+            <button value="NEW COLORS" onclick="changeColor(this)">NEW COLORS</button>
+            <div class="difficulty">
+                <button value="EASY" onclick="changeColor(this)">EASY</button>
+                <button value="HARD" onclick="changeColor(this)">HARD</button>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="panel">
+            <div>
+                <button class = "buttonColor" onclick="clicked(this)"></button>
+                <button class = "buttonColor" onclick="clicked(this)"></button>
+                <button class = "buttonColor" onclick="clicked(this)"></button>
+            </div>
+            <div>
+                <button class = "buttonColor" onclick="clicked(this)"></button>
+                <button class = "buttonColor" onclick="clicked(this)"></button>
+                <button class = "buttonColor" onclick="clicked(this)"></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

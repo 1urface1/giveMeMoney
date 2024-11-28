@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
+body {
+    width: 100vw;
+    text-align: center;
+    font-family: 'Sono', sans-serif;
+    color: white;
+    margin: 0;
+}
+
+.header {
+    background-color: #029895;
+}
+
+.header .event {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header .event button{
+    all:unset;
+    cursor: pointer;
+    color: #029895;
+    padding-left: 4px;
+    padding-right: 4px;
+
+}
+.header .event .difficulty button {
+
+}
+
+.main {
+    height: 72.7vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+}
+
+.main .panel {
+    width: 620px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.main .panel button {
+    width: 160px;
+    height: 160px;
+    margin: 7px;
+    border-radius: 25%;
+}
